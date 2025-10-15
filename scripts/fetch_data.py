@@ -48,7 +48,7 @@ if __name__ == "__main__":
     success = fetch_and_save_data(
         symbol="XAUUSD",
         exchange="OANDA",
-        interval=Interval.in_1_hour,
+        interval=Interval.in_1_minute,
         n_bars=5000
     )
     

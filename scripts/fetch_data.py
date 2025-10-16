@@ -77,7 +77,7 @@ if __name__ == "__main__":
     # Fetch XAUUSD data from OANDA
     success = fetch_and_save_data(
         symbol="XAUUSD",
-        exchange="OANDA",
+        exchange="FXCM",
         interval=Interval.in_1_minute,
         n_bars=5000
     )
